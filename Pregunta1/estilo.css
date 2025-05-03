@@ -1,0 +1,21 @@
+table, td, th {
+    border: 1px solid;
+}
+  
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+.name{
+    background-color: grey;
+    text-align: center;
+}
+.c{
+    color: white;
+    border-color: black;
+}
+.email{
+    background-color: beige;
+    text-align: center;
+}

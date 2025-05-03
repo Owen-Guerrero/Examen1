@@ -1,0 +1,35 @@
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.logo{
+    display: inline-block;
+}
+aside {
+    background-color: white;
+    width: 45px;
+    height: 100%;
+    align-content: end;
+    display: flex;
+    flex-wrap: wrap;
+    unicode-bidi: isolate;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+li {
+    display: inline;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.foto1{
+    margin-left: 0;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+}
